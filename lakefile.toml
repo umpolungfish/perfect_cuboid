@@ -1,0 +1,16 @@
+name = "perfect-cuboid"
+version = "0.1.0"
+keywords = ["math", "number-theory", "millennium", "imscribing-grammar"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "PerfectCuboid"
+globs = ["PerfectCuboid"]

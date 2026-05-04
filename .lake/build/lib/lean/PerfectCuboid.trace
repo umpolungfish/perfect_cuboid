@@ -1,0 +1,46 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["4333ce0a89d580bc.olean"],
+  "i": "56e316f7718f3560.ilean",
+  "c": "99d2e749d93949b2.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/mrnob0dy666/perfect_cuboid/.lake/packages/Cli/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/batteries/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/Qq/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/aesop/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/importGraph/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/plausible/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/packages/mathlib/.lake/build/lib/lean:/home/mrnob0dy666/perfect_cuboid/.lake/build/lib/lean /home/mrnob0dy666/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /home/mrnob0dy666/perfect_cuboid/PerfectCuboid.lean -o /home/mrnob0dy666/perfect_cuboid/.lake/build/lib/lean/PerfectCuboid.olean -i /home/mrnob0dy666/perfect_cuboid/.lake/build/lib/lean/PerfectCuboid.ilean -c /home/mrnob0dy666/perfect_cuboid/.lake/build/ir/PerfectCuboid.c --setup /home/mrnob0dy666/perfect_cuboid/.lake/build/ir/PerfectCuboid.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "PerfectCuboid.lean:47:41: unused variable `p`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "PerfectCuboid.lean:69:24: unused variable `w`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "PerfectCuboid.lean:94:19: unused variable `h1`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "PerfectCuboid.lean:290:9: unused variable `p`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "PerfectCuboid.lean:388:42: unused variable `p`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"}],
+ "inputs":
+ [["PerfectCuboid:deps",
+   [["deps",
+     [["«perfect-cuboid»/PerfectCuboid:extraDep",
+       [["@«perfect-cuboid»:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "8fd896a9b3011bd6"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/home/mrnob0dy666/perfect_cuboid/PerfectCuboid.lean", "d1ce31c79412eaf4"],
+  ["options",
+   [["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "321dfc77970bbbc4"}
