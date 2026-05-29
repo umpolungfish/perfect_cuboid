@@ -1,0 +1,21 @@
+PerfectCuboid.lean: sync from MillenniumAnkh (2026-05-28)
+==========================================================
+
+Replaced with current MillenniumAnkh/Millennium/PerfectCuboid.lean.
+
+Key additions over previous version:
+- Namespace: Millennium.PerfectCuboid
+- 22 proved lemmas (0 sorry in Parts I–IV, VI–VII)
+- Full algebraic lemma chain (Parts III): g_sq_decomp, e_sq_decomp,
+  b_sq_gap, b_sq_factor, factor_gcd_divides, factor_gcd_divides_gcd,
+  factor_gcd_two_coprime
+- Full modular constraint proofs (Part IV): sq_mod_four, sq_mod_eight,
+  pythagorean_mod4_classification, even_of_sq_mod_four_zero,
+  face_has_even_leg (×3), space_diag_mod4, at_least_two_even
+- Frobenius closure proved (Part VI): mu ∘ delta = id (rfl)
+- Winding number conservation proved (Part VII)
+- 3 axioms (Phi_c critical edge): descent, descent_smaller,
+  descent_operator_exists
+- Conditional nonexistence: perfect_cuboid_nonexistent,
+  perfect_cuboid_conjecture_false
+- Crystal address 6738896, Tier O_inf, C=0.828
