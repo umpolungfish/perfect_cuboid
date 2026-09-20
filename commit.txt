@@ -1,21 +1,32 @@
-PerfectCuboid.lean: sync from MillenniumAnkh (2026-05-28)
-==========================================================
+PerfectCuboid.lean: ZFC_fe gap analysis + axiom consolidation (2026-05-30)
+==========================================================================
 
-Replaced with current MillenniumAnkh/Millennium/PerfectCuboid.lean.
+ZFC_fe lens applied to the existing Lean proof.
 
-Key additions over previous version:
-- Namespace: Millennium.PerfectCuboid
-- 22 proved lemmas (0 sorry in Parts I–IV, VI–VII)
-- Full algebraic lemma chain (Parts III): g_sq_decomp, e_sq_decomp,
-  b_sq_gap, b_sq_factor, factor_gcd_divides, factor_gcd_divides_gcd,
-  factor_gcd_two_coprime
-- Full modular constraint proofs (Part IV): sq_mod_four, sq_mod_eight,
-  pythagorean_mod4_classification, even_of_sq_mod_four_zero,
-  face_has_even_leg (×3), space_diag_mod4, at_least_two_even
-- Frobenius closure proved (Part VI): mu ∘ delta = id (rfl)
-- Winding number conservation proved (Part VII)
-- 3 axioms (Phi_c critical edge): descent, descent_smaller,
-  descent_operator_exists
-- Conditional nonexistence: perfect_cuboid_nonexistent,
-  perfect_cuboid_conjecture_false
-- Crystal address 6738896, Tier O_inf, C=0.828
+1. Header updated
+   - d(lifted, ZFC_fe) = 1 noted: lifted type has Ha_A (H_2), ZFC_fe requires Ha_! (H_inf)
+   - Dh_o (HOLOGRAPHIC_STATE) already present in the lifted type — no gap there
+   - Axiom taxonomy note: 3 axioms, 1 load-bearing (descent_operator_exists)
+   - Total proved count updated: 22 -> 24
+
+2. New Part IX: ZFC_fe Gap Analysis
+   Structural comparison:
+     Lifted:  <Dh_o; Th_O; R_=; Ph_}; f_z; C_@; G_q; g_i; s_y; Ha_A; S_i; O_z>
+     ZFC_fe:  <Dh_o; Th_O; R_=; Ph_}; f_z; C_@; G_q; g_i; s_y; Ha_!; S_i; O_z>
+     d(lifted, ZFC_fe) = 1 -- only chirality Ha differs (H_2 vs H_inf)
+
+   Two new proved theorems (no sorry):
+   - descent_axioms_consolidate: (forall p, (descent p).g < p.g) ->
+       forall p, exists q, q.g < p.g
+     Shows 3 axioms reduce to 1; descent + descent_smaller => descent_operator_exists.
+   - descent_sufficiency: descent_operator_exists sufficient for non-existence
+     without constructive descent function. Minimal H_inf axiom.
+
+   Comment explains: ETERNAL_FIXEDPOINT (Ha_!) requires forall n exists phi(...);
+   in the descent context this is the chain witness. Proving descent_operator_exists
+   without axioms closes the H_inf gap and promotes the type to full ZFC_fe.
+
+3. Part IX (old) renamed to Part X; summary updated to reflect 24 proved theorems
+   and the ZFC_fe gap finding.
+
+Author: Lando @ @perator
